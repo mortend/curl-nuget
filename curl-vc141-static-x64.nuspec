@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>curl-vc141-static-x64</id>
+    <version>$version$</version>
+    <authors>mortend</authors>
+    <owners>mortend</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://curl.haxx.se/legal/licmix.html</licenseUrl>
+    <projectUrl>https://curl.haxx.se/libcurl/</projectUrl>
+    <description>Header files and static builds of libcurl for Visual Studio 2017.</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>curl libcurl</tags>
+  </metadata>
+  <files>
+    <file src="build\**\*" target="build" />
+  </files>
+</package>
